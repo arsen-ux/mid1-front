@@ -1,0 +1,33 @@
+.product-card {
+  background: rgb(239, 157, 48);
+  border: 2px solid rgb(219, 176, 5);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-bottom: 15px;
+}
+
+.product-card__content {
+  padding: 12px;
+  color: white;
+}
+
+
+.product-card__price {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.product-card__star {
+  margin-right: 3px;
+}
+
+.product-card__rating-value {
+  font-weight: bold;
+}
+
+.product-card__brand {
+  font-size: 12px;
+  color: #ddd6fe;
+}
+
